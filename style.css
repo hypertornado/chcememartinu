@@ -1,0 +1,54 @@
+
+body {
+	background-image: url(white_paperboard.png);
+	font-family: 'Noto Sans', Arial, sans-serif;
+	font-size: 20px;
+	line-height: 135%;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	color: #444;
+}
+
+p {
+	padding-top: 20px;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	margin-left: 0px;
+	width: 190px;
+	box-shadow: 0px 0px 20px gray;
+	border-radius: 5px;
+	-webkit-transform: rotate(-5deg);
+}
+
+img:hover {
+	-webkit-transform: scale(1.1);
+}
+
+h2, h3 {
+	color: #333;
+	padding-top: 20px;
+	padding-top: 10px;
+	text-shadow: 0.5px 0.5px 1px gray;
+}
+
+h1 {
+	color: #111;
+	text-shadow: 0.5px 0.5px 1px gray;
+}
+
+#thanks, #thanks a {
+	color: #CCC;
+	font-size: 12px;
+}
+
+.main {
+	max-width: 740px;
+	border: 0px solid black;
+	margin: 0 auto;
+	padding: 20px;
+}
